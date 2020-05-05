@@ -4,8 +4,9 @@
        
 <meta charset="utf-8">
 <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
-<script src="js/dist/bootstrap.js"></script>
 <script src="git://github.com/jquery/jquery.git"></script>
+<script src="js/dist/bootstrap.js"></script>
+
 
 </head>
 
