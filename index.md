@@ -14,7 +14,7 @@
    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>TEST</title>
   </head>
 
   <body>
@@ -41,7 +41,7 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </div>
-        </li>
+      
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
