@@ -4,7 +4,7 @@
        
 <meta charset="utf-8">
 <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
-<script src="js/bootstrap.js"></script>
+<script src="js/dist/bootstrap.min.js"></script>
 
 </head>
 
