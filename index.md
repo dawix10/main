@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
 </head>
 
 <body>
