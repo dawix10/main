@@ -3,8 +3,10 @@
 <head>
        
 <meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
-<script src="git://github.com/jquery/jquery.git"></script>
+
 <script src="js/dist/bootstrap.js"></script>
 
 
