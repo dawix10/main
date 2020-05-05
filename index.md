@@ -5,7 +5,8 @@
         
 <meta charset="utf-8">
 <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<title>Main Page</title>
 </head>
 
 <body>
