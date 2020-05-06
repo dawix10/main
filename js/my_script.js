@@ -5,5 +5,5 @@ var hot = false;
 if (true) {
   console.log("STARTING...");
 
-temp = prompt("Temperature readed from temperature sensor: ");
+temp = console.prompt("Temperature readed from temperature sensor: ");
 }
