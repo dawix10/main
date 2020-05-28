@@ -1,8 +1,7 @@
-var temp;
-var hot = false;
+var x = 0;
 
-if (true) {
-  console.log("STARTING...");
-
-temp = prompt("Temperature readed from temperature sensor: ");
+while(x<5) {
+  console.log("x is currently: " + x);
+  console.log("x is still less than 5. Adding +1 to x");
+  x = x+1;
 }
