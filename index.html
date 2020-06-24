@@ -53,11 +53,7 @@
 
      function testAPI() {
       FB.api('/me','GET',{"fields":"id,name,email"}, function(response){
-        if(response && !response.error){
-          console.log(response);
-        } else{
-          console.log("error")
-        }
+        console.log(response);
       });
      }
 
