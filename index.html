@@ -12,7 +12,9 @@
 </head>
 
 <body>
+
   <script>
+
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '943697946058880',
@@ -20,6 +22,7 @@
       xfbml      : true,
       version    : 'v7.0'
     });
+
     FB.getLoginStatus(function(response) {
         statusChangeCallback(response);
     });
@@ -41,19 +44,20 @@
        console.log("Not logged in")
      }
    }
+
    function checkLoginState() {
     FB.getLoginStatus(function(response) {
       statusChangeCallback(response);
     });
-}
-    function testAPI() {
-      FB.api('/me?fields=id,name', function(response){
-        if(response && !response.error){
-          console.log(response);
-        }
-      });
+   }
 
-}
+   function testAPI() {
+    FB.api('/me?fields=id,name', function(response){
+      if(response && !response.error){
+        console.log(response);
+      }
+    })
+   }
 
 </script>
 
