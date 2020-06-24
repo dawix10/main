@@ -64,11 +64,11 @@
        let profile = `
        <h3>${user.name}</h3>
        <ul class="list-group">
-        <li class="list-group-item">User ID: ${user.id}</li>
-        <li class="list-group-item">User Email: ${user.email}</li>
-        <li class="list-group-item">User Birthday: ${user.birthday}</li>
-        <li class="list-group-item">User Events description: ${user.events.data[0].name} "Czas rozpoczęcia: " ${user.events.data[0].start_time}</li>
-        <li class="list-group-item">User Locations: ${user.location.name}</li>
+        <li class="list-group-item">ID: ${user.id}</li>
+        <li class="list-group-item">E-mail użytkownika: ${user.email}</li>
+        <li class="list-group-item">Urodziny użytkownika: ${user.birthday}</li>
+        <li class="list-group-item">Wydarzenie w którym weźmiesz udział: ${user.events.data[0].name} / czas rozpoczęcia wydarzenia: ${user.events.data[0].start_time}</li>
+        <li class="list-group-item">Bieżąca lokalizacja użytkownika: ${user.location.name}</li>
       </ul>
       `;
       document.getElementById('profile').innerHTML = profile;
