@@ -46,6 +46,14 @@
       statusChangeCallback(response);
     });
 }
+    function testAPI(){
+      FB.api("/me?fields=name,email,birthday", function(response)){
+        if(response && !response.error){
+          console.log(response);
+        }
+      }
+
+}
 </script>
 
 
