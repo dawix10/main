@@ -67,8 +67,8 @@
         <li class="list-group-item">ID: ${user.id}</li>
         <li class="list-group-item">E-mail użytkownika: ${user.email}</li>
         <li class="list-group-item">Urodziny użytkownika: ${user.birthday}</li>
-        <li class="list-group-item">Wydarzenie w którym weźmiesz udział: ${user.events.data[0].name} / czas rozpoczęcia wydarzenia: ${user.events.data[0].start_time}</li>
-        ${user.events.data[1].name}
+        <li class="list-group-item">Twoim pierwszym wydarzeniem w którym weźmiesz udział jest: ${user.events.data[0].name}. Czas rozpoczęcia tego wydarzenia to: ${user.events.data[0].start_time}</li>
+        <li class="list-group-item">Drugim wydarzeniem w którym weźmiesz udział: ${user.events.data[1].name}. Czas rozpoczęcia drugiego wydarzenia to: ${user.events.data[1].start_time}</li>
         <li class="list-group-item">Bieżąca lokalizacja użytkownika: ${user.location.name}</li>
       </ul>
       `;
