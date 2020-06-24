@@ -53,9 +53,28 @@
      }
 
      function testAPI() {
-      FB.api('/me','GET',{"fields":"id,name,email,events"}, function(response){
+      FB.api('/me','GET',{"fields":"id,name,email,birthday,events,location"}, function(response){
+        buildProfile(response);
+
         console.log(response);
       });
+     }
+
+     function buildProfile(user){
+       let profile = '
+       <h3>${user.name}</h3>
+       <ul class="list-group">
+        <li class="list-group-item">User ID: ${user.id}</li>
+        <li class="list-group-item">User Email: ${user.email}</li>
+        <li class="list-group-item">User birthday: ${user.birthday}</li>
+        <li class="list-group-item">User events: ${user.events.data.description}</li>
+        <li class="list-group-item">User events: ${user.location.name}</li>
+      </ul>
+
+      document.getElementById('profile').innerHTML = profile;
+
+       ';
+
      }
 
    </script>
