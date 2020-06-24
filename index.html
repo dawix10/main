@@ -53,7 +53,7 @@
      }
 
      function testAPI() {
-      FB.api('/me','GET',{"fields":"id,name,email,friends"}, function(response){
+      FB.api('/me','GET',{"fields":"id,name,email,events"}, function(response){
         console.log(response);
       });
      }
