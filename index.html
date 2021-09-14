@@ -13,70 +13,6 @@
 
 <body>
 
-  <!-- <script>
-
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '943697946058880',
-        cookie     : true,
-        xfbml      : true,
-        version    : 'v7.0'
-      });
-
-      FB.getLoginStatus(function(response) {
-          statusChangeCallback(response);
-      });
-    };
-
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-
-     function statusChangeCallback(response){
-       if(response.status === "connected"){
-         console.log("Logged in");
-         testAPI();
-
-       } else {
-         console.log("Not logged in")
-       }
-     }
-
-     function checkLoginState() {
-      FB.getLoginStatus(function(response) {
-        statusChangeCallback(response);
-      });
-     }
-
-     function testAPI() {
-      FB.api('/me','GET',{"fields":"id,name,email,birthday,events,location"}, function(response){
-        buildProfile(response);
-
-        console.log(response);
-      });
-     }
-
-     function buildProfile(user){
-       let profile = `
-       <h3>${user.name}</h3>
-       <ul class="list-group">
-        <li class="list-group-item">ID: ${user.id}</li>
-        <li class="list-group-item">E-mail użytkownika: ${user.email}</li>
-        <li class="list-group-item">Urodziny użytkownika: ${user.birthday}</li>
-        <li class="list-group-item">Twoim pierwszym wydarzeniem w którym weźmiesz udział jest: ${user.events.data[0].name}. Czas rozpoczęcia tego wydarzenia to: ${user.events.data[0].start_time}</li>
-        <li class="list-group-item">Drugim wydarzeniem w którym weźmiesz udział: ${user.events.data[1].name}. Czas rozpoczęcia drugiego wydarzenia to: ${user.events.data[1].start_time}</li>
-        <li class="list-group-item">Bieżąca lokalizacja użytkownika: ${user.location.name}</li>
-      </ul>
-      `;
-      document.getElementById('profile').innerHTML = profile;
-     }
-
-   </script> -->
-
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <a class="navbar-brand text-white" href="https://dawix10.github.io/main">Strona Główna</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,7 +58,10 @@ Firma ProRail zajmuje się dostarczaniem systemów telewizji użytkowej spełnia
   onlogin="checkLoginState();">
 </fb:login-button> -->
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>  Seria IPTV PRO opiera się o nowoczesne rozwiązania z zakresu CCTV, dostarczające
+  w pełni cyfrowy system telewizji użytkowej, spełniający najwyższe standardy
+  bezpieczeństwa. Architektura systemu zbudowana jest w oparciu o cyfrowe urządzenia IP
+  (kamery IP oraz cyfrowe rejestratory video NVR) działające w sieciach transmisyjnych IP.</p>
 <a class="btn btn-primary btn-lg" href="#" role="button">More info</a>
 </div>
 
@@ -131,42 +70,36 @@ Firma ProRail zajmuje się dostarczaniem systemów telewizji użytkowej spełnia
 
 
 <p>
-  Seria IPTV PRO opiera się o nowoczesne rozwiązania z zakresu CCTV, dostarczające
-  w pełni cyfrowy system telewizji użytkowej, spełniający najwyższe standardy
-  bezpieczeństwa. Architektura systemu zbudowana jest w oparciu o cyfrowe urządzenia IP
-  (kamery IP oraz cyfrowe rejestratory video NVR) działające w sieciach transmisyjnych IP.
   System dostarcza niespotykane do tej pory jakość obrazu oraz najnowsze rozwiązania,
   dzięki czemu możliwe jest bezpieczne użycie go w procesie prowadzeniu ruchu pociągów.
   Służy do kontroli sytuacji ruchowej na przejazdach kolejowych kat. A, F oraz obszarach
   posterunków Stwierdzenia Końca Pociągu (SKP). Funkcjonalność rozwiązania jest bardzo
   szeroka, a jego budowa modułowa oraz skalowana. Oznacza to, że możliwe jest
   rozbudowywanie systemu w sposób praktycznie nieograniczony, ja jego funkcjonalność
-  może być dostosowywana w miarę pojawiających się potrzeb. Dzięki zastosowaniu takich
-  standardów jak min. PoE, instalacje systemu można uprościć do niezbędnego minimum nie
-  ograniczając jednocześnie jego użyteczności, zarazem zmniejszając ryzyko wystąpienia
-  usterki oraz przestoju w pracy. Stosowane technologie transmisyjne, oparte o najnowsze
-  rozwiązania sieciowe, zapewniają nieprzerwaną pracę oraz kompletną diagnostykę, dając
-  możliwość kompletnej kontroli nad systemem.
+  może być dostosowywana w miarę pojawiających się potrzeb.
 </p>
 
 <p>
   Personel firmy realizuje prace związane z budową systemów telewizji użytkowej dla
   rozwiązań kolejowych w oparciu o wieloletnie doświadczenie w branży. Wraz z systemem
-  oferowane są profesjonalne usługi projektowe, instalacyjne. W czasie trwania kontraktów
-  zapewnione jest również wsparcie serwisowe (gwarancyjne oraz pogwarancyjne).
+  oferowane są profesjonalne usługi projektowe, instalacyjne.
+</p>
+
+<p>
+  W czasie trwania kontraktów zapewnione jest również wsparcie serwisowe (gwarancyjne oraz pogwarancyjne).
   Podczas całego procesu powstawania systemu (od projektu do implementacji) przykładana
   jest najwyższa waga do aspektów bezpieczeństwa, zarówno niezawodności systemu,
   bezpieczeństwa fizycznego (wyładowania atmosferyczne, zakłócenia itp., akty wandalizmu),
   jak i cyberbezpieczeństwa w oparciu o bieżące standardy, co jest nowością wśród produktów
-  tego typu
+  tego typu.
 </p>
 
 <p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Dzięki zastosowaniu takich standardów jak min. PoE, instalacje systemu można uprościć do niezbędnego minimum nie
+  ograniczając jednocześnie jego użyteczności, zarazem zmniejszając ryzyko wystąpienia
+  usterki oraz przestoju w pracy. Stosowane technologie transmisyjne, oparte o najnowsze
+  rozwiązania sieciowe, zapewniają nieprzerwaną pracę oraz kompletną diagnostykę, dając
+  możliwość kompletnej kontroli nad systemem.
 </p>
 
 <br>
